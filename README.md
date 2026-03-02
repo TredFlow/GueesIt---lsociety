@@ -1,2 +1,9 @@
-# GueesIt---lsociety
-Simple Python game with a touch of trolling and slow-print logic.
+# GuessIt - LSOCIETY Edition 🐘🔌
+A "Guess the Number" game in Python.
+
+### Features:
+- Slow text output (slow_print).
+- Input validation.
+- Player rating system (trolling after 11 attempts).
+
+"Help world, don't just hack it." — TredFlow
