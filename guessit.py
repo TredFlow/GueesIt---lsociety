@@ -36,11 +36,11 @@ while True:
             time.sleep(1)
             slow_print(f'{attempts} attempts, shame!')
             time.sleep(1)
-            slow_print('We`re calling your mom!')
+            slow_print("We're calling your mom!")
             time.sleep(1)
             tprint('BEEP')
             time.sleep(1)
-            slow_print('Your mom: Are you serious? I`ll give him up right now.')
+            slow_print("Your mom: Are you serious? I'll give him up right now.")
             time.sleep(1)
             tprint('HAHAHAHA')
             time.sleep(1)
@@ -56,6 +56,7 @@ while True:
     
     
     
+
 
 
 
