@@ -30,6 +30,9 @@ while True:
         slow_print('The number is less!')
 
 record_guess(attempts, best_score)
+Exit = input('Press Enter to exit...')
+
+
 
 
 
