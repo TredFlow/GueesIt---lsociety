@@ -29,7 +29,7 @@ Translations = {
         'record_status' : 'Current record to beat: {} attempts.',
         'guess' : 'Enter a number between 1 and 100: ',
         'range' : 'The number must be between 1 and 100!',
-        'higher ': 'The number is higher!',
+        'higher' : 'The number is higher!',
         'less' : 'The number is less!',
         'numbers_only' : 'Enter the NUMBERS, bro.',
         'exit' : 'Press Enter to exit...',
