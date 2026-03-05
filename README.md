@@ -1,4 +1,5 @@
-#🕵️‍♂️ GuessIt — LSOCIETY Edition
+🕵️‍♂️ GuessIt — LSOCIETY Edition
+
 "Help world, don't just hack it." — TredFlow
 A sophisticated "Guess the Number" engine built with a focus on modular architecture and user experience.
 
