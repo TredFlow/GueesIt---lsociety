@@ -25,5 +25,5 @@ def record_guess(attempts, current_record, lang):
         print(Translations [lang]['new_record'].format(current_record - attempts))
         record_mod
     elif attempts > current_record:
-        print(Translations [lang]['bad_record'].format(attempts))
+        print(Translations [lang]['bad_record'].format(current_record))
         
