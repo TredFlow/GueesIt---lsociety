@@ -5,11 +5,12 @@ from guessrecord import record_check, record_guess
 from languess import Translations
 lang = input("Choose language / Выбери язык (en/ru): ").lower()
 if lang not in ['ru', 'en']: 
-    lang = 'en' 
+    lang = 'en'
+name = input(Translations [lang]['name'].format)
 best_score = record_check()
 num = random.randint(1, 100)
 attempts = 0
-slow_print(Translations [lang]['start'])
+slow_print(Translations [lang]['start'].format(name))
 time.sleep(1)
 tprint('GUESS IT')
 time.sleep(2)
@@ -36,6 +37,7 @@ while True:
 record_guess(attempts, best_score, lang)
 
 Exit = input(Translations [lang]['exit'])
+
 
 
 
