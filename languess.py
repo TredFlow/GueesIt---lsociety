@@ -1,6 +1,7 @@
 Translations = { 
     'ru': {
         'stat_user' : 'Игрок | Попытки | Время',
+        'stat_clue' : "Что бы вывести таблицу рекордов, введите 'stat'",
         'name' : 'Введите ваше имя: ',
         'start' : 'Добро пожаловать в игру, {}!',
         'record_status' : 'Текущий рекорд, который нужно побить: {} попыток.',
@@ -26,6 +27,7 @@ Translations = {
         },
     'en': {
         'stat_user' : 'Users | Attempts | Time',
+        'stat_clue' : "To display the high score table, enter 'stat'",
         'name' : 'Enter your name:',
         'start' : 'Welcome to the game, {}!',
         'record_status' : 'Current record to beat: {} attempts.',
