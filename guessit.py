@@ -5,8 +5,8 @@ from guessrecord import record_check, record_guess
 from languess import Translations
 lang = input("Choose language / Выбери язык (en/ru): ").lower()
 if lang not in ['ru', 'en']: 
-    lang = 'en'
-name = input(Translations [lang]['name'].format)
+    lang = 'en' 
+name = input(Translations [lang]['name'])
 best_score = record_check()
 num = random.randint(1, 100)
 attempts = 0
@@ -18,7 +18,12 @@ slow_print(Translations [lang]['record_status'].format(best_score))
 time.sleep(1)
 while True:
     guess = input(Translations [lang]['guess'])
-    attempts += 1
+    if guess in ['stat']:
+        print(Translations [lang]['stat_user'])
+        with open ('record.txt','r') as f:
+            print(f.read())
+        continue
+    attempts += 1 
     if not guess.isdigit(): 
         print(Translations [lang]['numbers_only'])
         continue
@@ -34,7 +39,7 @@ while True:
     elif i > num:
         slow_print(Translations [lang]['less'])
 
-record_guess(attempts, best_score, lang)
+record_guess(name, attempts, best_score, lang)
 
 Exit = input(Translations [lang]['exit'])
 
