@@ -1,5 +1,6 @@
 Translations = { 
     'ru': {
+        'stat_user' : 'Игрок | Попытки | Время',
         'name' : 'Введите ваше имя: ',
         'start' : 'Добро пожаловать в игру, {}!',
         'record_status' : 'Текущий рекорд, который нужно побить: {} попыток.',
@@ -24,6 +25,7 @@ Translations = {
         
         },
     'en': {
+        'stat_user' : 'Users | Attempts | Time',
         'name' : 'Enter your name:',
         'start' : 'Welcome to the game, {}!',
         'record_status' : 'Current record to beat: {} attempts.',
@@ -48,3 +50,4 @@ Translations = {
     }
       
 }
+
