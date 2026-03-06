@@ -13,8 +13,9 @@ attempts = 0
 slow_print(Translations [lang]['start'].format(name))
 time.sleep(1)
 tprint('GUESS IT')
-time.sleep(2)
+time.sleep(1)
 slow_print(Translations [lang]['record_status'].format(best_score))
+slow_print(Translations [lang]['stat_clue'])
 time.sleep(1)
 while True:
     guess = input(Translations [lang]['guess'])
@@ -42,6 +43,7 @@ while True:
 record_guess(name, attempts, best_score, lang)
 
 Exit = input(Translations [lang]['exit'])
+
 
 
 
