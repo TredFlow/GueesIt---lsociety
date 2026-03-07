@@ -3,6 +3,7 @@ import time
 from modguess import slow_print, messages, tprint
 from guessrecord import record_check, record_guess
 from languess import Translations
+# TODO: Add difficulty levels in v1.4
 lang = input("Choose language / Выбери язык (en/ru): ").lower()
 if lang not in ['ru', 'en']: 
     lang = 'en' 
