@@ -1,5 +1,6 @@
 Translations = { 
     'ru': {
+        'level_status' : 'Выберите уровень сложности: easy/normal/hard/impossible',
         'stat_user' : 'Игрок | Попытки | Время',
         'stat_clue' : "Что бы вывести таблицу рекордов, введите 'stat'",
         'name' : 'Введите ваше имя: ',
@@ -26,6 +27,7 @@ Translations = {
         
         },
     'en': {
+        'level_status' : 'select difficulty level: easy/normal/hard/impossible',
         'stat_user' : 'Users | Attempts | Time',
         'stat_clue' : "To display the high score table, enter 'stat'",
         'name' : 'Enter your name:',
