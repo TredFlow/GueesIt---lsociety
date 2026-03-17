@@ -10,16 +10,13 @@ Key Libraries: art (ASCII graphics), time, os, sys
 
 ✨ Key Features
 Global Record System: Persistent high-score tracking via file I/O.
-Smart Localization: Full support for English and Russian (RU/EN).
+Smart Localization: Full support for English and Russian (RU/EN/UK/JP).
 Immersive UX: slow_print typewriter effect and ASCII-art integration.
 Dynamic Feedback: A player rating system that ranges from "Einstein" to "Shame" (11+ attempts triggers the troll-script).
 
 🚀 How to Run
 Clone the repo: git clone https://github.com
 Install dependencies: pip install art
-Run: python main.py
-
-## Hardware Log: Restoring my first PC
-Found an old ASUS P8H61-M LE. Planning to restore it for my Linux & C lab. 🐧🦾.
+Run: python guessit.py
 
 
