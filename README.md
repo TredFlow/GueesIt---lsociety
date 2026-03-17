@@ -10,7 +10,7 @@ Key Libraries: art (ASCII graphics), time, os, sys
 
 ✨ Key Features
 Global Record System: Persistent high-score tracking via file I/O.
-Smart Localization: Full support for English and Russian (RU/EN/UK/JP).
+Smart Localization: Full support for English, Russian and more language (RU/EN/UK/JP).
 Immersive UX: slow_print typewriter effect and ASCII-art integration.
 Dynamic Feedback: A player rating system that ranges from "Einstein" to "Shame" (11+ attempts triggers the troll-script).
 
