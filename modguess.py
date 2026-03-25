@@ -4,7 +4,7 @@ from art import tprint
 from languess import Translations
 def slow_print(text):
     for char in text:
-        sys.stdout.write(char)
+        sys.stdout.write(char)                             
         sys.stdout.flush()
         time.sleep(0.05) 
     print()
@@ -17,6 +17,8 @@ def level_status(level):
         return 500
     elif level == 'impossible':
         return 1000
+    elif level == 'hack':
+        return 1
     else:
         return 100   
 def messages(attempts, lang):
@@ -42,3 +44,4 @@ def messages(attempts, lang):
             tprint('HAHAHAHA')
             time.sleep(1)
             tprint('DONT CRY')
+
