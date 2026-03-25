@@ -27,7 +27,7 @@ Translations = {
         
         },
     'en': {
-        'level_status' : 'select difficulty level: easy/normal/hard/impossible:',
+        'level_status' : 'Select difficulty level: easy/normal/hard/impossible:',
         'stat_user' : 'Users | Attempts | Time',
         'stat_clue' : "To display the high score table, enter 'stat'",
         'name' : 'Enter your name:',
