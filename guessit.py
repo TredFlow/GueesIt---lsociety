@@ -5,8 +5,8 @@ from guessrecord import record_check, record_guess
 from languess import Translations
 from online_stat import send_to_record
 
-lang = input("Choose language / Выбери язык (en/ru/uk/jp): ").lower()
-if lang not in ['ru', 'en', 'uk', 'jp']: 
+lang = input("Choose language / Выбери язык (en/ru/uk/jp/de/it): ").lower()
+if lang not in ['ru', 'en', 'uk', 'jp', 'de', 'it']:
     lang = 'en' 
 name = input(Translations [lang]['name'])
 best_score = record_check()
